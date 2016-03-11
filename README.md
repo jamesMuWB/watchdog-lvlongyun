@@ -6,7 +6,10 @@
 这里要输入的端口配置在scf项目的scf_config.xml配置文件中
 
 
-\<property\>\n
-	\<name\>xx.xxx.xxx.listenPort\</name\>
-	\<value\>xxxxx\</value\>
+\<property\>
+
+	<name>xx.xxx.xxx.listenPort</name>
+	
+	<value>xxxxx</value>
+	
 \</property\>
