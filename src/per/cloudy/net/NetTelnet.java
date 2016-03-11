@@ -77,8 +77,8 @@ public class NetTelnet {
 	public static void main(String[] args) {
 		try {
 			System.out.println("启动Telnet...");
-			String ip = "10.126.97.195";
-			int port = 26205;
+			String ip = "192.168.18.130";
+			int port = 19019;
 			NetTelnet telnet = new NetTelnet(ip, port);
 			telnet.sendCommand("time|grep _");
 			while(true){
