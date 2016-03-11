@@ -29,7 +29,7 @@ public class MonitorFrame extends JFrame{
 		this.setSize(500, 500);
 		this.setLocationRelativeTo(null);
 		this.getContentPane().setLayout(null);
-		this.setTitle("监控SCF服务-"+title);
+		this.setTitle("监控服务-"+title);
 		this.add(graphic);
 		final Bucket bucket = new Bucket();
 		final SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
