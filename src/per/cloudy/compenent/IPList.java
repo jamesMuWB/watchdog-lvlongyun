@@ -127,11 +127,11 @@ public class IPList extends JFrame{
 						index++;
 						sb.delete(0, sb.length());
 					}
-					//第一行 time:1ms--key:InvokeRealService_STTInfoServiceImpl.insertBasic--description:protocol version:1
+					//第一行 time:1ms
 					if(countStr.startsWith("\rtime")){
 						sb.append(countStr.split("--")[0].split(":")[1].replace("ms", ""));
 					}
-					//第二行  fromIP:10.126.97.196
+					//第二行  fromIP
 					else if(countStr.startsWith("fromIP")){
 						sb.append(countStr.split(":")[1]);
 					}
