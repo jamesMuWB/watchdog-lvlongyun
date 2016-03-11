@@ -29,7 +29,7 @@ public class MainFrame extends JFrame implements ActionListener{
 		super();
 		this.setSize(320, 180);
 		this.getContentPane().setLayout(null);
-		this.setTitle("监控SCF服务");
+		this.setTitle("监控服务");
 		this.setLocationRelativeTo(null);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		JLabel ipL=new JLabel();
